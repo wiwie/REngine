@@ -225,7 +225,6 @@ public class RTalk {
 	    }
 	    return new RPacket(rep,null);
 	} catch(Exception e) {
-	    e.printStackTrace();
 	    return null;
 	}
     }
